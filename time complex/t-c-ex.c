@@ -74,3 +74,38 @@ result 0;
 
  }
 
+
+//ex 04
+
+
+#include<stdio.h>
+
+int main()
+{
+
+int i, j, n, count;
+
+scanf("%d", &n);
+
+count = 0;
+
+for(i = 0; i<n; i++)
+{
+   for ( j = 0; j<n; j++)
+   {
+                                       //complexity O(n2square)  constant so we can cut 2 so we can write this O(n2)
+       count = count +1 ;
+
+   }
+
+}
+
+
+printf("result = %d \n",n, count);
+
+
+
+
+
+ }
+
