@@ -1,9 +1,9 @@
 
-    int linear_search(int A[], int n, init x)
+    int linear_search(int A[], int b, init x)
 {
     int i;
 
-     for(i = 0; i<n; i++) {
+     for(i = 0; i<b; i++) {
           if(A[i] == x) {
                return i ;
           }
